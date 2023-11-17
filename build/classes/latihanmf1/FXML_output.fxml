@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="370.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="latihanmf1.FXML_outputController">
+   <children>
+      <Label layoutX="31.0" layoutY="39.0" text="Nama Pembeli" />
+      <Label layoutX="31.0" layoutY="72.0" text="Jenis Mabel" />
+      <Label layoutX="31.0" layoutY="106.0" text="Pembelian" />
+      <Label layoutX="31.0" layoutY="141.0" text="Bayar" />
+      <Label layoutX="31.0" layoutY="176.0" text="Diskon" />
+      <Label layoutX="33.0" layoutY="225.0" text="Total" />
+      <Label fx:id="lblpembeli" layoutX="353.0" layoutY="39.0" text="Label" />
+      <Label fx:id="lbljenis" layoutX="353.0" layoutY="72.0" text="Label" />
+      <Label fx:id="lblpembelian" layoutX="353.0" layoutY="106.0" text="Label" />
+      <Label fx:id="lbltotalkotor" layoutX="353.0" layoutY="141.0" text="Label" />
+      <Label layoutX="329.0" layoutY="141.0" text="=" />
+      <Label fx:id="lbljumlah" layoutX="279.0" layoutY="141.0" text="Label" />
+      <Label layoutX="241.0" layoutY="141.0" text="x" />
+      <Label fx:id="lblharga" layoutX="179.0" layoutY="141.0" text="Label" />
+      <Label fx:id="lbldiskon" layoutX="353.0" layoutY="176.0" text="Label" />
+      <Label layoutX="350.0" layoutY="192.0" text="_______  _" />
+      <Label fx:id="lbltotalbersih" layoutX="353.0" layoutY="225.0" text="Label" />
+      <Button fx:id="btnkembali" layoutX="191.0" layoutY="301.0" mnemonicParsing="false" onAction="#kembaliklik" text="Kembali" />
+   </children>
+</AnchorPane>
